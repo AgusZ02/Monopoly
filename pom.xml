@@ -64,7 +64,7 @@
 		<sonar.organization>agusz02</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		<sonar.projectKey>agusz02_monopolycli</sonar.projectKey>
-		<sonar.login>4426c2227142c96e5348a0e7c61c5e422d311f17</sonar.login>
+		<sonar.login>047a4bc866c2ae9d921138938ac7bee88a4a0e50</sonar.login>
 	</properties>
 
 	<!-- https://mvnrepository.com/artifact/junit/junit -->

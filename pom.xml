@@ -63,7 +63,7 @@
 
 		<sonar.organization>agusz02</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<sonar.projectKey>agusz02_monopolycli</sonar.projectKey>
+		<sonar.projectKey>AgusZ02_Monopoly</sonar.projectKey>
 		<sonar.login>cbe7abb95ac6fc988b5c0e27a63add7079d04578</sonar.login>
 	</properties>
 

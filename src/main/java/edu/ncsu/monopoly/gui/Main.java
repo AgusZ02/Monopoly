@@ -3,7 +3,7 @@ package edu.ncsu.monopoly.gui;
 import javax.swing.JOptionPane;
 
 import edu.ncsu.monopoly.*;
-//hola
+//hola2
 public class Main {
 
 	private static int inputNumberOfPlayers(MainWindow window) {

@@ -39,7 +39,7 @@ public class MainWindow extends JFrame implements MonopolyGUI{
 		eastPanel.setBorder(new LineBorder(Color.BLACK));
 		
 		Container c = getContentPane();
-		//setSize(800, 600);
+		
 		Toolkit tk = Toolkit.getDefaultToolkit();
 		Dimension d = tk.getScreenSize();
 		setSize(d);
@@ -118,8 +118,13 @@ public class MainWindow extends JFrame implements MonopolyGUI{
 	public void movePlayer(int index, int from, int to) {
 		GUICell fromCell = queryCell(from);
 		GUICell toCell = queryCell(to);
-		fromCell.removePlayer(index);
-		toCell.addPlayer(index);
+		try {
+			fromCell.removePlayer(index);
+			toCell.addPlayer(index);
+		} catch (NullPointerException e) {
+			e.printStackTrace();
+		}
+		
 	}
 
     public RespondDialog openRespondDialog(TradeDeal deal) {
